@@ -14,6 +14,7 @@ app.use('/', router);
 //Inicia o servidor
 app.listen(porta);
 console.log('API Funfando Carai!');
+console.log('Clique no link para testar => http://localhost:3000/clientes');
 
 //Faz a conexão com o banco
 function execSQLQuery(sqlQry, res){
@@ -32,6 +33,7 @@ function execSQLQuery(sqlQry, res){
           res.json(results);
         connection.end();
         console.log('executou!');
+        
     });
   }
 //SELECT * FROM
