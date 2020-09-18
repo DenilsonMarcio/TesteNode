@@ -8,7 +8,7 @@ npm install bootstrap --save
 npm install body-parser --save
 
 
-# Aqui os passos para fazer o versionaento:
+# Aqui os passos para fazer o versionamento:
 1° Logado acesse o repositorio que quer ajudar e clique em FORK para adicionar o repositorio para sua conta. 
 2° clone para seu compoutador copiando a URL. 
 3° Abra o terminal e digite git clone e cole a URL. 
