@@ -3,8 +3,8 @@ const mysql      = require('mysql');
 const conn = mysql.createConnection({
   host     : 'mysql669.umbler.com',
   port     : 41890,
-  user     : 'livsundev',
-  password : '#livsundev',
+  user     : '',
+  password : '',
   database : 'dbbankbeer'
 });
 
